@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "node app.js",  // start the app.js file in production
+    "build": "echo 'No build step for backend'",  // if no build step is needed
+    "test": "echo 'No tests specified' && exit 1"  // Add your testing script if needed
   },
   "keywords": [],
   "author": "",
